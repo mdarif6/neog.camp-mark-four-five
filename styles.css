@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@400;500&display=swap');
+
+body{
+
+    font-family: 'Heebo', sans-serif;
+}
+
+:root{
+
+    --primary-color: #FB7185;
+    --or-rose: #FFF1F2;
+}
+.list-non-bullet{
+    list-style: none;
+}
+
+.list-item-inline{
+    display: inline;
+    
+}
+
+.navigation{
+    background-color: var(--primary-color);
+    color: white;
+    padding: 1rem;
+    border-bottom-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+    
+}
+.navigation .name{
+    font-weight: bold;
+    font-size: large;
+}
+
+.navigation .link{
+    color: white;
+    border: 2px solid white;
+}
+
+.navigation .nav-pills{
+    text-align: right;
+    
+    
+}
+.link{
+    text-decoration: none;
+    padding: 1rem;
+    
+}
+
+.header-hero {
+    padding: 5rem;
+}
+
+
+.header-hero .headerpic{
+        max-width: 350px;
+        display: block;
+        margin: auto;
+}
+
+.header-heading{
+    padding-top: 1rem;
+     text-align: center;
+}
+
+.header-hero .header-heading .header-invert{
+    color: var(--primary-color);
+}
+
+.footer{
+    background-color: var(--primary-color);
+    padding: 2rem 1rem;
+    text-align: center;
+    color: white;
+}
+
+.footer .link{
+
+    color: white;
+}
+
+.footer ul{
+    padding-inline-start: 0px;
+}
+
+.section{
+    padding: 2rem;
+    display: block;
+}
+.section h1{
+    text-align: center;
+    margin: auto;
+    
+}
+.or {
+    background-color: var(--or-rose);
+}
+
+.container{
+padding-left: 1rem;
+padding-right: 1rem;
+
+}
+
