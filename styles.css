@@ -83,11 +83,16 @@ body {
   display: block;
   box-sizing: border-box;
 }
-
-.container .link {
+.link-primary {
   background-color: var(--primary-color);
   color: white;
   padding: 0.5rem;
+  border-radius: 0.5rem;
+}
+
+.link-secondary {
+  color: var(--primary-color);
+  border: 1px solid var(--primary-color);
   border-radius: 0.5rem;
 }
 
