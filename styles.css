@@ -71,9 +71,11 @@ body {
 
 .hero {
   padding: 2rem;
+  box-sizing: border-box;
 }
 
 .hero .hero-img {
+  width: 100%;
   max-width: 350px;
   display: block;
   margin: auto;
@@ -124,5 +126,11 @@ body {
   .navigation .nav-pills {
     display: flex;
     padding: 0.5rem;
+  }
+  .list-item-inline {
+    padding: 0;
+  }
+  .hero .hero-img {
+    max-width: 200px;
   }
 }
