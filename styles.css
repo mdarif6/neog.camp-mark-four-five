@@ -122,6 +122,7 @@ body {
 
 @media only screen and (max-width: 800px) {
   .navigation .nav-pills {
-    padding: 0;
+    display: flex;
+    padding: 0.5rem;
   }
 }
