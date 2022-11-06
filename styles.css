@@ -119,3 +119,9 @@ body {
 .footer .footericon {
   max-width: 40px;
 }
+
+@media only screen and (max-width: 800px) {
+  .navigation .nav-pills {
+    padding: 0;
+  }
+}
