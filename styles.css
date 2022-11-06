@@ -129,4 +129,11 @@ body {
   .hero .hero-img {
     max-width: 200px;
   }
+  .btn-wrapper {
+    text-align: center;
+    max-width: 140px;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
 }
