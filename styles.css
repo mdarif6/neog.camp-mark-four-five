@@ -123,10 +123,6 @@ body {
 }
 
 @media only screen and (max-width: 800px) {
-  .navigation .nav-pills {
-    display: flex;
-    padding: 0.5rem;
-  }
   .list-item-inline {
     padding: 0;
   }
